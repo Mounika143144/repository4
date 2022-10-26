@@ -1,7 +1,7 @@
 node{
 
-   def tomcatWeb = 'E:\\apache-tomcat-9.0.68\\webapps'
-   def tomcatBin = 'E:\\apache-tomcat-9.0.68\\bin'
+   def tomcatWeb = 'C:\\apache-tomcat-9.0.68\\webapps'
+   def tomcatBin = 'C:\\apache-tomcat-9.0.68\\bin'
    def tomcatStatus = ''
    stage('SCM Checkout'){
      git 'https://github.com/Mounikausr/repository4.git'
